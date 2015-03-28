@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+     <string name="app_name">SeeYou</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="sy1">首页</string>
+    <string name="add1">通讯录</string>
+    <string name="fre1">朋友们</string>
+    <string name="sz1">设置</string>
+    <string name="tr1">lyydddd</string>
+    <string name="tr2">ggaaaa</string>
+    <string name="tr3">洋洋rrrr</string>
+    <string name="tr4">mmgggg</string>
+
+    <string name="title">心情记事本</string>
+    <string name="app_icon">心情记事本</string>
+    <string name="addMood">添加心情</string>
+    <string name="mood_addit">Add New Mood</string>
+    <string name="mood_view">View Detailed Mood</string>
+    <string name="nothing_to_save">亲，没有输入内容哦~</string>
+    <string name="mood_length_invalid">亲，有这么多话要说啊@#8230;最多70个字哦~</string>
+    <string name="menu_setting">设置/修改密码</string>
+    <string name="menu_view">查看心情</string>
+    <string name="menu_delete">删除心情</string>
+    <string name="item_delete">删除</string>
+    <string name="item_back">返回</string>
+    <string name="save">保存</string>
+    <string name="discard">取消</string>
+    <string name="freshen">刷新</string>
+    <string name="mood_tendency">心情走势</string>
+    
+    <!-- 密码管理Dialog中用到的字符串 -->
+    <string name="mood_set_password">设定密码</string>
+    <string name="setting_input">输入密码</string>
+    <string name="log_in">登陆</string>
+    <string name="cancel_pw">取消密码保护</string>
+    <string name="setting_confirm">确认密码</string>
+    <string name="old_password">旧密码</string>
+    <string name="new_password">新密码</string>
+    <string name="change_password">修改密码</string>
+    
+    
+    <!-- 查询Dialog中用到的字符串 -->
+    <string name="mood_query">心情查询</string>
+    <string name="enable_date_filter">开启日期选择</string>
+    <string name="start_date">起始日期</string>
+    <string name="end_date">结束日期</string>
+    <string name="content_filter">查找关键字</string>
+    <string name="ok">确定</string>
+    <string name="cancel">取消</string>
+    
+	<string name="exit_dialog">亲，您要离开吗？</string>    
+	
+	<string name="pieChart">饼图</string>
+	<string name="OtherMonths">查看其他月份</string>
+	
+	<!-- 设置菜单 -->
+	<string name="online">在线</string>
+	<string name="usePassword">开启密码</string>
+	<string name="modifyPassword">修改密码</string>
+	<string name="feedback">反馈</string>
+	<string name="about">关于</string>
+	<string name="exit_app">退出</string>
+
+	<!-- 个人信息 -->
+	<string name="app_information">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;本应用是一款具有简单功能的记事本工具，欢迎访问我的博客主页：%1$s，由于时间仓促，错误与疏忽之处在所难免，希望各位朋友们以邮件的形式反馈问题给我，再次表示感谢！</string>
+	<string name="author">作者:</string>
+	<string name="author_name">林洋洋</string>
+	<string name="email">邮箱:</string>
+	<string name="version">V1.0</string>
+	<string name="my_blog_url">http://blog.csdn.net/iamholybird</string>
+	<string name="my_email">1260157543@qq.com</string>
+	<string name="all_rights_reserved">Copyright © 2015 林洋洋. All Rights Reserved.</string>
+	<!-- 测试数据 -->
+	<string name="testTime">2013@#8211;11@#8211;25 09:20:00</string>
+</resources>

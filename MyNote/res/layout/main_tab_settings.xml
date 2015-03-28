@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#00ffcc"
+    android:orientation="vertical" >
+        
+        <RelativeLayout 
+  			android:layout_width="fill_parent"
+  			android:layout_height="45dp"
+  			android:id="@+id/title" 
+  			android:background="@drawable/chat_title_bg_repeat"
+  			android:gravity="center_vertical"  >  
+  			
+            
+      		<TextView
+        		android:layout_width="wrap_content" 
+        		android:layout_height="wrap_content" 
+        		android:text="@string/sz1"
+        		android:layout_centerInParent="true"
+        		android:textSize="20sp"		
+				android:textColor="#ffffff" /> 
+			<ImageButton 
+			    android:id="@+id/right_btn"
+			    android:layout_width="67dp" 
+        		android:layout_height="wrap_content"
+        		android:layout_alignParentRight="true" 
+        		android:layout_centerVertical="true"
+        		android:layout_marginRight="5dp"
+        		android:src="@drawable/title_btn_function"
+				android:background="@drawable/title_btn_right"
+				android:onClick="btnmainright"
+			    />      
+		</RelativeLayout>
+		 <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="0dp" >               
+            </EditText>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:background="@drawable/search_bar_bg" >
+
+            <EditText
+                android:id="@+id/editText1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="搜索"
+                android:singleLine="true"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:textColor="#000"
+                android:drawableLeft="@drawable/search_bar_icon_normal" 
+                android:background="@drawable/search_bar_edit_bg" >               
+            </EditText>
+            
+        </LinearLayout>
+        
+        
+         <Button 
+      				    android:layout_width="fill_parent" 
+        				android:layout_height="wrap_content"
+        				android:layout_marginTop="10dp"
+        				android:layout_marginLeft="12dp"
+        				android:layout_marginRight="12dp"
+        				android:text="闹钟"
+        				android:textSize="18sp"		
+						android:textColor="#fff"
+						android:gravity="center"
+						android:background="@drawable/btn_style_white"
+						android:onClick="alerm"
+      				    />
+          <Button 
+      				    android:layout_width="fill_parent" 
+        				android:layout_height="wrap_content"
+        				android:layout_marginLeft="12dp"
+        				android:layout_marginRight="12dp"
+        				android:text="记事本"
+        				android:textSize="18sp"		
+						android:textColor="#fff"
+						android:gravity="center"
+						android:background="@drawable/btn_style_green"
+						android:onClick="jsb"
+      				    /> 
+      				    <Button 
+      				    android:layout_width="fill_parent" 
+        				android:layout_height="wrap_content"
+        				android:layout_marginLeft="12dp"
+        				android:layout_marginRight="12dp"
+        				android:text="关于"
+        				android:textSize="18sp"		
+						android:textColor="#000"
+						android:gravity="center"
+						android:background="@drawable/btn_style_yellow"
+						android:onClick="about"
+      				    />  
+      				     <Button 
+      				    android:layout_width="fill_parent" 
+        				android:layout_height="wrap_content"
+        				android:layout_marginLeft="12dp"
+        				android:layout_marginRight="12dp"
+        				android:text="关于"
+        				android:textSize="18sp"		
+						android:textColor="#000"
+						android:gravity="center"
+						android:background="@drawable/btn_style_b"
+						android:onClick="a"
+      				    />  
+      				     
+      				     <Button 
+      				    android:layout_width="fill_parent" 
+        				android:layout_height="wrap_content"
+        				android:layout_marginLeft="12dp"
+        				android:layout_marginRight="12dp"
+        				android:text="反馈信息"
+        				android:textSize="18sp"		
+						android:textColor="#fff"
+						android:gravity="center"
+						android:background="@drawable/btn_style_green"
+						android:onClick="fk"
+      				    />        	
+        
+        <Button 
+      				    android:layout_width="fill_parent" 
+        				android:layout_height="wrap_content"
+        				android:layout_marginBottom="14dp"
+        				android:layout_marginLeft="12dp"
+        				android:layout_marginRight="12dp"
+        				android:text="退出登录"
+        				android:textSize="18sp"		
+						android:textColor="#fff"
+						android:gravity="center"
+						android:background="@drawable/btn_style_red"
+						android:onClick="exit_settings"
+      				    /> 
+      				   
+        
+
+
+ </LinearLayout>

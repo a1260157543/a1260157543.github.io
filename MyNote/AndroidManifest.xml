@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.hlb"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+     <uses-permission android:name="android.permission.VIBRATE" />
+     <uses-permission android:name="android.permission.INTERNET" />
+     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+     <uses-permission android:name="android.permission.READ_CONTACTS"/>
+    
+    <application
+        android:name="com.hlb.app.MyApplication"
+          android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name" 
+        android:theme="@style/Default.NoTitleBar" >
+        <provider
+            android:name="com.hlb.app.MoodLogProvider"
+            android:authorities="com.provider.moodlog"
+            android:exported="false" >
+        </provider>
+
+        <activity
+            android:name="com.lyy.seeyou.Index"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.hlb.activity.MoodLogActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity android:name="com.hlb.activity.NewMoodAddit" >
+
+            <intent-filter android:label="@string/mood_addit" >
+                <action android:name="android.intent.action.INSERT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="vnd.android.cursor.dir/vnd.com.moodlog" />
+                <data android:mimeType="vnd.android.cursor.item/vnd.com.moodlog" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.hlb.activity.MoodItemView" >
+
+            <!-- 该intent-filter指明能够在MoodItemView中查看每条心情的详细信息 -->
+            <intent-filter android:label="@string/mood_view" >
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="vnd.android.cursor.item/vnd.com.moodlog" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.hlb.activity.MoodIconGrid" >
+        </activity>
+        <!-- 配置统计分析中用到的Activity -->
+        <activity android:name="org.achartengine.GraphicalActivity" />
+        <activity android:name="com.hlb.chart.ChartTabActivity" >
+        </activity>
+        <activity android:name="com.hlb.chart.LineChartActivity" >
+        </activity>
+        <activity android:name="com.hlb.chart.BarChartActivity" >
+        </activity>
+        <activity android:name="com.hlb.activity.WelcomeActivity"></activity>
+         <activity android:name="com.lyy.seeyou.loading.What_Door"  android:theme="@android:style/Theme.NoTitleBar"/>
+        <activity android:name="com.lyy.seeyou.loading.What_viewpager" android:theme="@android:style/Theme.NoTitleBar"/>
+        <activity android:name="com.lyy.seeyou.traslation.Screen" android:theme="@android:style/Theme.NoTitleBar"/>
+         <activity android:name="com.lyy.seeyou.activity.MainActivity" android:theme="@android:style/Theme.NoTitleBar"/>
+         <activity android:name="com.lyy.seeyou.traslation.Exit" android:theme="@style/MyDialogStyleBottom"/>
+         <activity android:name="com.lyy.seeyou.traslation.MainTopRightDialog" android:theme="@style/MyDialogStyleTop"/>
+         <activity android:name="com.lyy.seeyou.traslation.ExitFromSettings" android:theme="@style/MyDialogStyleBottom"/>
+         <activity android:name="com.lyy.seeyou.loading.Net" android:theme="@style/MyDialogStyleBottom"/>
+         <activity android:name="com.lyy.seeyou.loading.NetPage" android:theme="@style/MyDialogStyleBottom"/>
+         <activity android:name="com.lyy.seeyou.traslation.Image" android:theme="@android:style/Theme.NoTitleBar"/>
+           <activity android:name="com.lyy.seeyou.setting.MyAlarmManagerDemo" android:theme="@android:style/Theme.NoTitleBar"/>
+           <activity android:name="com.lyy.seeyou.setting.AlarmMessage" android:theme="@android:style/Theme.NoTitleBar"/>
+            <receiver android:name="com.lyy.seeyou.setting.MyAlarmReceiver" android:enabled="true"
+					android:process=":remote">
+			</receiver>
+			<activity android:name="com.lyy.seeyou.activity.AddressActivity" android:theme="@android:style/Theme.NoTitleBar"/>
+			<activity android:name="com.lyy.seeyou.setting.About" android:theme="@android:style/Theme.NoTitleBar"/>
+			<activity android:name="com.lyy.seeyou.setting.FeedBack" android:theme="@android:style/Theme.NoTitleBar"/>
+			
+    </application>
+
+</manifest>
