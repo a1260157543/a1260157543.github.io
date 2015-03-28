@@ -43,7 +43,7 @@ public final class AppConstants {
 	public static final String AUTHORITY = "com.provider.moodlog";
 
 	// 默认的心情表情图片a122的ID
-	public static final int DEFAULT_ICON_ID = R.drawable.f000;
+	public static final int DEFAULT_ICON_ID = R.drawable.f021;
 
 	// 在数据库中查询时需要的列
 	public static final String[] PROJECTION = new String[] { MoodColumns._ID, // 0

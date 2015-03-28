@@ -10,7 +10,7 @@
         android:layout_width="fill_parent" 
         android:layout_height="wrap_content" 
         android:gravity="center"         
-        android:text=" \n \nSeeYou\n是生活的方式" 
+        android:text=" \n \nSeeYou\n就是生活的方式" 
         android:layout_alignParentTop="true"
         android:layout_marginTop="35dp"
         android:textSize="22sp"

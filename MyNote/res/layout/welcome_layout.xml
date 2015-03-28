@@ -3,6 +3,19 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:orientation="vertical" 
-    android:background="@drawable/bg_v1">
+    android:background="#00ffcc"
+    android:gravity="center">
+      <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="48sp"
+        android:textColor="#0000ff"
+        android:text="You"/>
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="60sp"
+        android:textColor="#ffffff"
+        android:text="记事本"/>
 
 </LinearLayout>

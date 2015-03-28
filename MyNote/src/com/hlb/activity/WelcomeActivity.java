@@ -28,7 +28,7 @@ public class WelcomeActivity extends Activity {
 		//使用handler处理消息
 		handler = new WelcomeHandler(WelcomeActivity.this);
 		//延迟3s
-		handler.postDelayed(new WelcomeRunnable(), 1000);
+		handler.postDelayed(new WelcomeRunnable(), 500);
 	}
 
 	/**

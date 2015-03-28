@@ -9,7 +9,7 @@
         android:id="@+id/subrelativeLayout"
         android:layout_width="fill_parent"
         android:layout_height="48dp"
-        android:background="@drawable/add_mood_title" >
+        android:background="@drawable/title_bg_blue" >
 
         <ImageButton
             android:id="@+id/additSaveButton"
@@ -43,13 +43,15 @@
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
             android:gravity="left|top"
+            android:background="#00ffcc"
             android:inputType="textMultiLine" />
     </FrameLayout>
 
     <RelativeLayout
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:gravity="center_vertical" >
+        android:gravity="center_vertical"
+        android:background="@drawable/chat_title_bg_repeat" >
 
         <ImageView
             android:id="@+id/mood_word"
@@ -78,7 +80,7 @@
             android:layout_alignParentRight="true"
             android:contentDescription="@null"
             android:scaleType="fitCenter"
-            android:src="@drawable/f000" />
+            android:src="@drawable/f021" />
     </RelativeLayout>
 
     <FrameLayout

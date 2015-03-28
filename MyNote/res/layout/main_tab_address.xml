@@ -19,7 +19,7 @@
         		android:text="@string/add1"
         		android:layout_centerInParent="true"
         		android:textSize="20sp"		
-				android:textColor="#ffffff" /> 
+				android:textColor="#ffffff" /> 				
 			<ImageButton 
 			    android:id="@+id/right_btn"
 			    android:layout_width="67dp" 
@@ -38,27 +38,21 @@
                 android:layout_height="0dp" >               
             </EditText>
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:background="@drawable/search_bar_bg" >
-
-            <EditText
-                android:id="@+id/editText1"
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:hint="搜索"
-                android:singleLine="true"
-                android:focusable="true"
-                android:focusableInTouchMode="true"
-                android:textColor="#000"
-                android:drawableLeft="@drawable/search_bar_icon_normal" 
-                android:background="@drawable/search_bar_edit_bg" >               
-            </EditText>
+       
+         
+         <ImageView 
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:src="@drawable/b1"/>
+         
+         <ScrollView 
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content">
             
-        </LinearLayout>
-         <Button 
+             <LinearLayout android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:orientation="vertical">
+                   <Button 
       				    android:layout_width="fill_parent" 
         				android:layout_height="wrap_content"
         				android:layout_marginTop="10dp"
@@ -69,24 +63,105 @@
 						android:textColor="#fff"
 						android:gravity="center"
 						android:background="@drawable/btn_style_white"
-						android:onClick="add"
+						android:onClick="js1"
       				    />
-         <LinearLayout 
+             
+             <LinearLayout 
              android:layout_width="match_parent"
              android:layout_height="wrap_content"
-             android:orientation="horizontal">
+             android:orientation="horizontal"
+             android:layout_marginBottom="1dp">
                <ImageView 
         android:layout_width="wrap_content"
         android:layout_height="100dp"
         android:layout_weight="5"
-        android:id="@+id/face"/>
+        android:layout_marginLeft="12dp"
+        android:src="@drawable/b3"
+        android:background="#3a3af5"       				
+        android:id="@+id/face"/>               
        <Button 
            android:layout_width="wrap_content"
            android:layout_height="100dp"
            android:layout_weight="1"
-           android:id="@+id/start"
-           android:text="点我"/>
+           android:layout_marginRight="12dp"
+           android:background="@drawable/btn_style_green"
+           android:text="记事本"
+           android:onClick="jsb"/>       
          </LinearLayout>
+         
+              <LinearLayout 
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:orientation="horizontal">
+               
+       <Button 
+           android:layout_width="wrap_content"
+           android:layout_height="100dp"
+           android:layout_weight="1"
+                   android:layout_marginLeft="12dp"
+          android:background="@drawable/btn_style_yellow"
+           android:text=" 闹钟   "
+           android:onClick="alerm"/>
+       <ImageView 
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_weight="5"
+        android:src="@drawable/b4"
+        android:layout_marginRight="12dp"
+        android:background="#c4f13a"/>
+         </LinearLayout>
+           <LinearLayout 
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:orientation="horizontal"
+             android:layout_marginBottom="1dp">
+               <ImageView 
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_weight="5"
+        android:src="@drawable/b5"
+        android:background="#e5dbdb"
+        android:layout_marginLeft="12dp"/>
+       <Button 
+           android:layout_width="wrap_content"
+           android:layout_height="100dp"
+           android:layout_weight="1"
+           android:layout_marginRight="12dp"
+           android:background="@drawable/btn_style_b"
+           android:text="计算器"
+           android:onClick="jsj"/>
+       
+         </LinearLayout>
+         
+             <LinearLayout 
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:orientation="horizontal"
+             android:layout_marginBottom="1dp">             
+       <Button 
+           android:layout_width="match_parent"
+           android:layout_height="100dp"
+           android:layout_weight="1"
+           android:layout_marginRight="12dp"
+           android:layout_marginLeft="12dp"
+           android:background="@drawable/btn_style_green"
+           android:text="尽情期待"/>
+         </LinearLayout>
+          <Button 
+      				    android:layout_width="fill_parent" 
+        				android:layout_height="wrap_content"
+        				android:layout_marginBottom="14dp"
+        				android:layout_marginLeft="12dp"
+        				android:layout_marginRight="12dp"
+        				android:text=""
+        				android:textSize="18sp"		
+						android:textColor="#fff"
+						android:gravity="center"
+						android:background="@drawable/btn_style_red"
+      				    /> 
+         
+             </LinearLayout>
+         </ScrollView>
       
 
 

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" 
-    android:background="@drawable/bg_h1" 
+    android:background="@drawable/c2" 
     android:layout_width="fill_parent" 
     android:layout_height="fill_parent"
   >
@@ -11,7 +11,7 @@
         android:layout_height="wrap_content" 
         android:gravity="center" 
         
-        android:text="\n按住就能说话\n聊天是如此简单轻松" 
+        android:text="\n一路的收获\n使你对未来充满期待" 
         android:layout_alignParentTop="true"
         android:layout_marginTop="35dp"
         android:textSize="22sp"

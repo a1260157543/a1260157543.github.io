@@ -15,7 +15,7 @@ public class AlarmMessage extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 	super.onCreate(savedInstanceState);
 	new AlertDialog.Builder(this)//建立对话框
-	.setIcon(R.drawable.bg_h1)//设置图片
+	.setIcon(R.drawable.bg_v1)//设置图片
 	.setTitle("闹钟时间已到！")//设置对话框标题
 	.setMessage("闹钟响起，现在时间："+ new SimpleDateFormat("yyyy 年 MM 月 dd 日 HH 时 mm分 ss 秒")
 	.format(new Date())).setPositiveButton("关闭", new DialogInterface.OnClickListener() {

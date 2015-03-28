@@ -24,7 +24,7 @@ public class Index extends Activity{
 		setContentView(R.layout.index);
 		layout=(LinearLayout) findViewById(R.id.layout);
 		Screen screen=new Screen();
-		screen.AotoBackground(this, layout,R.drawable.bg_v1,R.drawable.bg_h1);
+		screen.AotoBackground(this, layout,R.drawable.bg_v1,R.drawable.bg_v1);
 		//requestWindowFeature(Window.FEATURE_NO_TITLE);//去掉标题栏
 		//getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
         //        WindowManager.LayoutParams.FLAG_FULLSCREEN);   //全屏显示

@@ -21,11 +21,22 @@
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name" 
         android:theme="@style/Default.NoTitleBar" >
+        <receiver android:name="com.lyy.seeyou.loading.ExampleAppWidgetProvider" >
+	    <intent-filter>
+	        <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+	    </intent-filter>
+	    <meta-data android:name="android.appwidget.provider"
+	               android:resource="@xml/example_appwidget_info"/>
+        <intent-filter>
+        	<action android:name="com.lyy.widget.appWidgetUpdate"/>
+        </intent-filter>
+	</receiver>
         <provider
             android:name="com.hlb.app.MoodLogProvider"
             android:authorities="com.provider.moodlog"
             android:exported="false" >
         </provider>
+        
 
         <activity
             android:name="com.lyy.seeyou.Index"
@@ -91,6 +102,9 @@
 			<activity android:name="com.lyy.seeyou.activity.AddressActivity" android:theme="@android:style/Theme.NoTitleBar"/>
 			<activity android:name="com.lyy.seeyou.setting.About" android:theme="@android:style/Theme.NoTitleBar"/>
 			<activity android:name="com.lyy.seeyou.setting.FeedBack" android:theme="@android:style/Theme.NoTitleBar"/>
+			<activity android:name="com.lyy.seeyou.setting.demo03" android:theme="@android:style/Theme.NoTitleBar"/>
+			<activity android:name="com.lyy.seeyou.activity.Add1" android:theme="@android:style/Theme.NoTitleBar"/>
+			<activity android:name="com.lyy.seeyou.traslation.Image1" android:theme="@android:style/Theme.NoTitleBar"/>
 			
     </application>
 

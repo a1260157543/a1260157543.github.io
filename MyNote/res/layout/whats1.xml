@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" 
-    android:background="@drawable/bg_h1" 
+    android:background="@drawable/c1" 
     android:layout_width="fill_parent" 
     android:layout_height="fill_parent"
   >
@@ -10,7 +10,7 @@
         android:layout_width="fill_parent" 
         android:layout_height="wrap_content" 
         android:gravity="center" 
-        android:text="\nSeeYou\n超过1亿人使用的手机应用" 
+        android:text="\nSeeYou\n正在等待出发\n走向世界" 
         android:layout_alignParentTop="true"
         android:layout_marginTop="35dp"
         android:textSize="22sp"

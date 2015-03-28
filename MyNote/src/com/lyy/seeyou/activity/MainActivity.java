@@ -7,12 +7,15 @@ import com.hlb.activity.WelcomeActivity;
 import com.lyy.seeyou.Index;
 import com.lyy.seeyou.loading.Net;
 import com.lyy.seeyou.loading.NetPage;
+import com.lyy.seeyou.loading.What_viewpager;
 import com.lyy.seeyou.setting.About;
 import com.lyy.seeyou.setting.FeedBack;
 import com.lyy.seeyou.setting.MyAlarmManagerDemo;
+import com.lyy.seeyou.setting.demo03;
 import com.lyy.seeyou.traslation.Exit;
 import com.lyy.seeyou.traslation.ExitFromSettings;
 import com.lyy.seeyou.traslation.Image;
+import com.lyy.seeyou.traslation.Image1;
 import com.lyy.seeyou.traslation.MainTopRightDialog;
 import com.lyy.seeyou.traslation.Screen;
 
@@ -69,7 +72,7 @@ public class MainActivity extends Activity {
         
         mainweixin=(RelativeLayout) findViewById(R.id.main);
         Screen screen=new Screen();
-		screen.AotoBackground(this, mainweixin,R.drawable.bg_v1,R.drawable.bg_h1);
+		screen.AotoBackground(this, mainweixin,R.drawable.bg_v1,R.drawable.bg_v1);
          //启动activity时不自动弹出软键盘
         getWindow().setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_STATE_ALWAYS_HIDDEN); 
         instance = this;
@@ -219,6 +222,8 @@ public class MainActivity extends Activity {
 				break;
 			case 2:
 				PlayMusic(R.raw.a);
+				Toast.makeText(MainActivity.this, "稍后推出",
+						Toast.LENGTH_LONG).show();
 				mTab3.setImageDrawable(getResources().getDrawable(R.drawable.tab_find_frd_pressed));
 				if (currIndex == 0) {
 					animation = new TranslateAnimation(zero, two, 0, 0);
@@ -365,6 +370,19 @@ public class MainActivity extends Activity {
 	 }
 	public void fk(View v) {
 		Intent intent = new Intent (MainActivity.this,FeedBack.class);			
+		startActivity(intent);	
+	 }
+	public void jsj(View v) {
+		Intent intent = new Intent (MainActivity.this,demo03.class);			
+		startActivity(intent);	
+	 }
+	
+	public void js1(View v) {
+		Intent intent = new Intent (MainActivity.this,What_viewpager.class);			
+		startActivity(intent);	
+	 }
+	public void image1(View v) {
+		Intent intent = new Intent (MainActivity.this,Image1.class);			
 		startActivity(intent);	
 	 }
 //	public void btn_shake(View v) {                                   //手机摇一摇

@@ -10,7 +10,7 @@
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
             android:layout_alignParentLeft="true"            
-            android:src="@drawable/bg_h1" />
+            android:src="@drawable/bg_v1" />
         
         <ImageView
             android:id="@+id/imageRight"
@@ -19,7 +19,7 @@
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
             android:layout_alignParentRight="true"            
-            android:src="@drawable/bg_h1" />
+            android:src="@drawable/bg_v1" />
         <TextView 
             android:id="@+id/anim_text"
         	android:layout_width="fill_parent" 
@@ -27,7 +27,7 @@
         	android:gravity="center" 
         	android:layout_alignParentTop="true"
             android:layout_marginTop="35dp"
-        	android:text=" \n \n微信，是一个生活方式\n \n "         	
+        	android:text=" \n \nSeeYou，就是一个生活方式\n \n "         	
         	android:textSize="22sp"
         	android:textColor="#fff" 
         />

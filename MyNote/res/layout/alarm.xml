@@ -3,27 +3,35 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical" 
-    android:background="@drawable/bg_h1">
+    android:background="@drawable/a3">
     <Button
         
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="@drawable/a3"
         android:id="@+id/set"
+        android:textSize="20sp"
+        android:layout_weight="1"
         android:text="set"/>
      <Button 
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="@drawable/a3"
+        android:textSize="20sp"
+         android:layout_weight="1"
         android:id="@+id/delete"
         android:text="delete"/>
      <TextView
          android:layout_gravity="center_horizontal" 
          android:layout_width="wrap_content"
          android:layout_height="wrap_content"
+          android:layout_weight="1"
          android:id="@+id/msg"/>
      <TimePicker 
          android:layout_gravity="center_horizontal"
          android:layout_width="wrap_content"
          android:layout_height="wrap_content"
+          android:layout_weight="2"
          android:id="@+id/time"/>
     
     
