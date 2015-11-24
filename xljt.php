@@ -1,5 +1,3 @@
-# a1260157543.github.io
-
 <?php
 
 		//获得参数 signature nonce token timestamp echostr
