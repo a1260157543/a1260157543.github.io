@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+
+<html lang="en-gb">
+
+<head>
+	<!--[if lt IE 7]><style type="text/css">html{display:none;}</style><script>alert('Please get a new browser!');</script><![endif]-->
+	
+	<script src="js/jquery.min.js"></script>
+	<script>!window.jQuery && document.write('<script src="js/jquery.1.5.2.js"><\/script>')</script>
+
+	<script>
+		jQuery.noConflict();
+	</script>
+
+	<!--[if IE]>
+	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="robots" content="index, follow" />
+	<meta name="keywords" content="restaurant, cafe, template, coffee shop, te contei" />
+	<meta name="rights" content="Demente Design" />
+	<meta name="language" content="en-GB" />
+	<meta name="title" content="Welcome to Te Contei" />
+	<meta name="description" content="Te Contei restaurant template demo." />
+
+	<title>学位论文库-结果查询</title>
+	
+	<link href="favicon.ico" rel="shortcut icon" />
+
+	<link href='http://fonts.useso.com/css?family=Droid+Serif' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.useso.com/css?family=Dancing+Script' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/template.css" media="screen" />
+	<link rel="stylesheet" href="css/colorbox.css" />
+	<link rel="stylesheet" href="css/options.css" /> 
+	
+	<noscript>
+		<style>
+		#nav li:hover > ul, #nav li ul li:hover > ul,.sidebar ul.menu li:hover > ul, .sidebar ul.menu ul li:hover > ul{display: block;}
+		</style>
+	</noscript>
+
+	<script src="js/scripts.js"></script>
+	
+	<script>	
+		jQuery(function(){
+
+			jQuery("#content-block").preloader({
+				delay: 100
+			});
+						
+			jQuery('.jquery-menu').enhanceMenu({
+				effect: 'slide',
+				duration: 200,
+				delayIn: 100,
+				delayOut: 100			
+			});
+			
+		});
+	</script>
+	
+</head>
+
+<!--[if IE 7 ]>    <body class="ie7 ie"> <![endif]--> 
+<!--[if IE 8 ]>    <body class="ie8 ie"> <![endif]--> 
+<!--[if !IE]><!--> <body> <!--<![endif]-->
+
+	<div id="headercloth"></div>
+
+	<header id="header" class="clearfix">
+		<div class="wrap">
+	
+			<div id="logo" class="left">
+				<a href="index.html">
+					Te Contei Restaurant Template Demo
+					<img src="images/logos/logo.png" alt="Te Contei Restaurant Template Demo" />
+				</a>
+			</div>
+
+						
+			<div id="nav">
+				<nav class="jquery-menu clearfix">
+					<ul class="menu">
+						<li><a href="index.html">使用说明</a></li>
+						<li><a href="post.html" >网上提交</a></li>
+						<li class="current active"><a href="result.html" >结果查询</a></li>
+						<li><a href="http://www.lib.ctgu.edu.cn/database/paper/huizhi.doc">下载回执</a></li>
+						<li><a href="http://www.lib.ctgu.edu.cn/database/paper/huizhi.doc">协议书</a></li>
+						<li><a href="contact.html">建议</a></li>
+					</ul>
+				</nav>
+			</div>
+			
+		</div>
+	</header>
+
+	<div class="clear"></div>
+	<div id="carte">
+		<div id="carte-top" class="wrap"></div>
+		<div id="content-block" class="wrap">
+
+			<div class="separator top-separator content left"></div>
+			<div class="separator top-separator content right"></div>
+			
+			<div id="main" class="content fullwidth">
+		
+				<article class="article art">
+		
+					<h4>提交结果查询 </h4>
+
+									<div id="contact-form-wrap" class="contact down-block">
+				
+					<form action="#" method="post" name="emailForm" id="emailForm" class="contact-form form-validate">
+
+						 学&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;号： <input type="text" id="num_id" name="num" size="30" class="required email hidevalue" maxlength="10" /><br />
+
+						 密&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;码： <input type="password" name="subject" id="contact_subject" size="30" class="hidevalue inputbox required" /> (供查询修改时用，务请牢记!!!) <br />
+						<button class="button validate" type="submit">确认提交</button>
+
+					</form>
+					
+				</div>
+					
+
+				</article>
+				
+			</div><!-- end main -->
+			
+			<div class="clear left content">
+				<div class="separator"></div>
+				<div class="small carte-footer">
+					<p>联系人：张波涛 ;  联系电话：6392087.</p>
+				</div>
+			</div>
+			
+			<div class="right content">
+				<div class="separator"></div>
+				<div class="small carte-footer">
+					<form action="#" method="post" id="search-form">
+						<div class="search-wrap">
+							<input name="searchword" maxlength="50" class="hidevalue search-field inputbox" type="search" size="50" value="Search..." />
+							<input type="submit" value="" class="search-button-image" onClick="this.form.searchword.focus();" />
+						</div>
+					</form>
+				</div>
+			</div>			
+		</div><!-- end #content-block -->
+		
+		<div id="carte-bottom" class="clear wrap"></div>
+	</div><!-- end #carte -->
+	
+		<footer id="footer" class="dark-zone">
+						
+			<div id="footer-info">
+				<div class="wrap relative">
+					
+					<div class="footer-left left">
+							
+<!-- 						<p>Our social networks:</p>
+						<ul class="social-links fade clearfix">
+
+							<li class="facebook"><a class="icon32 facebook_32" href="#"></a></li>
+							<li class="twitter"><a class="icon32 twitter_32" href="#"></a></li>
+							<li class="youtube"><a class="icon32 youtube_32" href="#"></a></li>
+						</ul> -->
+			
+					</div>
+										
+					<div class="footer-right right">
+						<p>版权所有©<a href="http://lib.ccec.edu.cn/index.htm" target="_blank">山东工商学院图书馆</a>--2016年<br />
+						山东 烟台 莱山区 <a href="http://www.ccec.edu.cn/" target="_blank">山东工商学院</a>.</p>
+					</div>
+					
+				</div>
+			</div><!-- end footer-info -->
+			
+		</footer><!-- end footer -->
+	
+	
+	<script src="js/jquery.colorbox-min.js"></script>
+	<script src="js/jquery.validity.pack.js"></script>
+
+	<script src="js/jquery.nivo.slider.pack.js"></script>
+	
+	<script>
+	jQuery(function(){
+		captions();
+		zebratables();
+		hoverTables();
+		pullquote();
+
+		jQuery("a[rel*='lightbox']").colorbox({
+			'opacity' : .5
+		});
+
+		jQuery.validity.setup({ outputMode:"modal" });
+		
+		var form = jQuery('form.form-validate');
+		if( form.length > 0 ){
+			// A general validation for forms
+			form.validity(function(){
+				jQuery('input.required').require();
+				jQuery('textarea.required').require();
+				jQuery('input[type="email"]').require().match('email');
+				jQuery('input.required[type="url"]').require().match('url');
+				jQuery('input[type="password"]').equal();
+			});
+		};
+		userLinks();
+		fades();
+		inputValues();
+	});
+	
+	jQuery(window).load(function(){
+	
+		jQuery('#slider').nivoSlider({
+			effect : 			'fade',
+			animSpeed : 		500, 	// Slide transition speed
+			pauseTime : 		3000, 	// How long each slide will show
+			captionOpacity : 	0.8, 	// Universal caption opacity
+			prevText : 			'', 	// Prev directionNav text
+			nextText : 			'', 	// Next directionNav text
+			controlNav : 		false 	// 1,2,3... navigation
+		});
+	});
+	</script>
+
+</body>
+</html>

@@ -1,0 +1,75 @@
+/*
+
+Please look at options.php in the php version folder too see all options. 
+Note there are some conditionals.
+Alternatively please check the readme file.
+
+*/
+body
+{
+	background-image: url(../images/cloth-bewitched.jpg);
+}
+
+#headercloth
+{
+	background-image: url(../images/header-cloth-bewitched.jpg);
+}
+
+#header .wrap
+{
+	background-image: url(../images/header-highlight-bewitched.jpg);
+}
+
+#nav, h1, h2, h3, h4, h5, h6
+{
+	font-family: "Dancing Script";
+}
+
+a, 
+a:active, 
+#nav a:hover 
+{ 
+	color: #d3710b; 
+}
+
+.leaf 
+{ 
+	background-color: #d3710b; 
+}
+
+a:hover 
+{ 
+	color: #545454; 
+}
+
+.readmore:hover .leaf 
+{ 
+	background-color: #545454; 
+}
+
+.dark-zone a
+{
+	color: #b8a295;
+}
+
+.fmodule 
+{ 
+	width: 25%; 
+}
+
+
+h1 { font-size: 2.5em; }
+
+h2 { font-size: 2.3em; }
+
+h3 { font-size: 1.8em; }
+
+h4 { font-size: 1.6em; }
+
+h5 { font-size: 1.4em; }
+
+h6 { font-size: 1.2em; }
+
+#fmodules h3 { font-size: 1.8em; }
+
+#nav a { font-size: 1.3em; }
