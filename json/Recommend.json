@@ -7,36 +7,36 @@
         "param": "",
         "goto": "",
         "style": "gm_av",
-        "title": "为你而生"
+        "title": ""
       },
       "body": [
 	  
 		 {
-          "title": "口号：为你所想，给你所需>>一切为你而生",
+          "title": "为你所想，给你所需>>一切为你而生",
           "style": "gm_av",
           "cover": "https://a1260157543.github.io/json/images/recommend/a1.jpg",
           "param": "6594870",
           "goto": "av",
           "width": 580,
           "height": 364,
-          "play": "",
-          "danmaku": "284"
+          "play": "口号",
+          "danmaku": "2016-12-28"
         },
         {
-          "title": "人群定位：学生，职场人士，文艺青年等等",
+          "title": "学生，职场人士，文艺青年等等",
           "style": "gm_av",
           "cover": "https://a1260157543.github.io/json/images/recommend/a1.jpg",
           "param": "6583508",
           "goto": "av",
           "width": 580,
           "height": 364,
-          "play": "",
+          "play": "人群定位",
           "danmaku": "2016-12-28"
         },
         {
           "title": "口号：为你所想，给你所需>>一切为你而生",
           "style": "gm_av",
-          "cover": "http://i0.hdslb.com/bfs/archive/6936d20e89e1d12eaeeadc202a3c941cc8c1e583.jpg_320x200.jpg",
+          "cover": "https://a1260157543.github.io/json/images/recommend/a1.jpg",
           "param": "6590483",
           "goto": "av",
           "width": 580,
@@ -47,7 +47,7 @@
         {
           "title": "人群定位：学生，职场人士，文艺青年等等",
           "style": "gm_av",
-          "cover": "http://i0.hdslb.com/bfs/archive/b5fdc1b141640e8c3ecfbd726b30b3ba0ecb6244.jpg_320x200.jpg",
+          "cover": "https://a1260157543.github.io/json/images/recommend/a1.jpg",
           "param": "6583743",
           "goto": "av",
           "width": 580,
@@ -65,19 +65,19 @@
         "param": "",
         "goto": "live",
         "style": "gm_av",
-        "title": "热门推荐",
+        "title": "",
         "count": 1245
       },
       "body": [
         {
-          "title": "人群定位：学生，职场人士，文艺青年等等",
+          "title": "学生，职场人士，文艺青年等等",
           "style": "gm_av",
-          "cover": "http://i0.hdslb.com/bfs/archive/b5fdc1b141640e8c3ecfbd726b30b3ba0ecb6244.jpg_320x200.jpg",
+          "cover": "https://a1260157543.github.io/json/images/recommend/a1.jpg",
           "param": "6583743",
           "goto": "av",
           "width": 580,
           "height": 364,
-          "play": "",
+          "play": "人群定位",
           "danmaku": "2016-12-28"
         }
       ]
