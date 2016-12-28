@@ -7,52 +7,30 @@
         "param": "",
         "goto": "",
         "style": "gm_av",
-        "title": "热门焦点"
+        "title": "为你而生"
       },
       "body": [
         {
-          "title": "为你而生",
+          "title": "口号：为你所想，给你所需>>一切为你而生",
           "style": "gm_av",
-          "cover": "http://i0.hdslb.com/bfs/archive/2146cf8472c1eb12c1cede8b26bd607c5a3b3164.jpg_320x200.jpg",
+          "cover": "https://a1260157543.github.io/json/images/recommend/a1.png",
           "param": "6594870",
           "goto": "av",
           "width": 580,
           "height": 364,
-          "play": "9815",
-          "danmaku": "284"
+          "play": "",
+          "danmaku": "2016-12-28"
         },
         {
-          "title": "158妹子秋季穿搭 森女/日系/学院/ol",
+          "title": "人群定位：学生，职场人士，文艺青年等等",
           "style": "gm_av",
-          "cover": "http://i0.hdslb.com/bfs/archive/f4430839ad27263b97ea4f74c95a5d5559962614.jpg_320x200.jpg",
+          "cover": "https://a1260157543.github.io/json/images/recommend/a1.png",
           "param": "6583508",
           "goto": "av",
           "width": 580,
           "height": 364,
-          "play": "1.7万",
-          "danmaku": "268"
-        },
-        {
-          "title": "【美食纪录片】味道  2016国庆特别奉献【全12集/720P】",
-          "style": "gm_av",
-          "cover": "http://i0.hdslb.com/bfs/archive/6936d20e89e1d12eaeeadc202a3c941cc8c1e583.jpg_320x200.jpg",
-          "param": "6590483",
-          "goto": "av",
-          "width": 580,
-          "height": 364,
-          "play": "7544",
-          "danmaku": "189"
-        },
-        {
-          "title": "【新番槽点】十月是魔法少女的胜利！？新番吐槽第一轮",
-          "style": "gm_av",
-          "cover": "http://i0.hdslb.com/bfs/archive/b5fdc1b141640e8c3ecfbd726b30b3ba0ecb6244.jpg_320x200.jpg",
-          "param": "6583743",
-          "goto": "av",
-          "width": 580,
-          "height": 364,
-          "play": "12.6万",
-          "danmaku": "1149"
+          "play": "",
+          "danmaku": "2016-12-28"
         }
       ]
     },
