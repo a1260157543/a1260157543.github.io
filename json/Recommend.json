@@ -10,7 +10,8 @@
         "title": "为你而生"
       },
       "body": [
-        {
+	  
+		 {
           "title": "口号：为你所想，给你所需>>一切为你而生",
           "style": "gm_av",
           "cover": "https://a1260157543.github.io/json/images/recommend/a1.jpg",
@@ -19,7 +20,7 @@
           "width": 580,
           "height": 364,
           "play": "",
-          "danmaku": "2016-12-28"
+          "danmaku": "284"
         },
         {
           "title": "人群定位：学生，职场人士，文艺青年等等",
@@ -31,7 +32,30 @@
           "height": 364,
           "play": "",
           "danmaku": "2016-12-28"
+        },
+        {
+          "title": "口号：为你所想，给你所需>>一切为你而生",
+          "style": "gm_av",
+          "cover": "http://i0.hdslb.com/bfs/archive/6936d20e89e1d12eaeeadc202a3c941cc8c1e583.jpg_320x200.jpg",
+          "param": "6590483",
+          "goto": "av",
+          "width": 580,
+          "height": 364,
+          "play": "",
+          "danmaku": "2016-12-28"
+        },
+        {
+          "title": "人群定位：学生，职场人士，文艺青年等等",
+          "style": "gm_av",
+          "cover": "http://i0.hdslb.com/bfs/archive/b5fdc1b141640e8c3ecfbd726b30b3ba0ecb6244.jpg_320x200.jpg",
+          "param": "6583743",
+          "goto": "av",
+          "width": 580,
+          "height": 364,
+          "play": "",
+          "danmaku": "2016-12-28"
         }
+	  
       ]
     },
     
@@ -46,53 +70,15 @@
       },
       "body": [
         {
-          "title": "【洛神赋  天依】",
-          "style": "gm_live",
-          "cover": "http://i0.hdslb.com/bfs/live/a72bfad6d94149a39cee5de3349ef982a77ec1c0.jpg",
-          "param": "61132",
-          "goto": "live",
+          "title": "人群定位：学生，职场人士，文艺青年等等",
+          "style": "gm_av",
+          "cover": "http://i0.hdslb.com/bfs/archive/b5fdc1b141640e8c3ecfbd726b30b3ba0ecb6244.jpg_320x200.jpg",
+          "param": "6583743",
+          "goto": "av",
           "width": 580,
           "height": 364,
-          "up_face": "http://i0.hdslb.com/bfs/face/93554bc1d486211715add1e65075c4bfcd75b848.jpg",
-          "up": "我真的是离城",
-          "online": 506,
-          "area": "绘画专区",
-          "area_id": 9
-        },
-        {
-          "title": "【洛神赋  天依】",
-          "style": "gm_live",
-          "cover": "http://i0.hdslb.com/bfs/live/a72bfad6d94149a39cee5de3349ef982a77ec1c0.jpg",
-          "param": "61132",
-          "goto": "live",
-          "width": 580,
-          "height": 364,
-          "up_face": "http://i0.hdslb.com/bfs/face/93554bc1d486211715add1e65075c4bfcd75b848.jpg",
-          "up": "我真的是离城",
-          "online": 506,
-          "area": "绘画专区",
-          "area_id": 9
-        }
-      ]
-    },
-
-    {
-      "type": "weblink",
-      "head": {
-        "param": "",
-        "goto": "",
-        "style": "",
-        "title": ""
-      },
-      "body": [
-        {
-          "title": "",
-          "style": "gl_normal",
-          "cover": "http://i0.hdslb.com/bfs/archive/ebe803cd2eb1d48fa2cb8ac828e3ee909151de33.jpg",
-          "param": "http://www.bilibili.com/html/activity-20161003tv.html",
-          "goto": "weblink",
-          "width": 714,
-          "height": 211
+          "play": "",
+          "danmaku": "2016-12-28"
         }
       ]
     }
